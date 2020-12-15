@@ -17,7 +17,7 @@
     margin: 0 auto;
   }
   .logo{
-    max-width: 150px;    
+    max-width: 150px;
     display: inline-block;
   }
   .navigation-list {
@@ -55,14 +55,14 @@
 .article {
     display: block;
   }
-  
+
   .article__graphic--inline {
     display: inline-block;
   }
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.6;
   }
   /* start grid fallback */
@@ -71,7 +71,7 @@
   width: 33%;
  }
  /* end grid fallback */
- 
+
  @supports (display: grid) {
   .grid {
     display: grid;
@@ -140,7 +140,7 @@
     animation-direction: alternate;
     animation-timing-function: linear;
   }
-  
+
   /* Cloud-move */
   @keyframes cloud-move {
     from {
@@ -154,7 +154,7 @@
   .cloud-front {
     animation: 30s cloud-move infinite alternate linear;
   }
-  
+
   @keyframes cloud-move-reverse {
     from {
       transform: translate(500px, 50px);
